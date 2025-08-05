@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rakhi Surprise</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🎊 Happy Raksha Bandhan! 🎉</h1>
+    <div class="buttons">
+      <button onclick="animateClick(this); showSurprise(1)">🎁 Surprise 1</button>
+      <button onclick="animateClick(this); showSurprise(2)">🎇 Surprise 2</button>
+      <button onclick="animateClick(this); showSurprise(3)">❤️ Surprise 3</button>
+      <button onclick="animateClick(this); showSurprise(4)">🌸 Surprise 4</button>
+    </div>
+    <div class="surprise-box" id="surpriseBox">
+      <img id="surpriseImg" src="" alt="Surprise Image"/>
+      <p id="surpriseText"></p>
+    </div>
+  </div>
+  <canvas class="confetti" id="confettiCanvas"></canvas>
+  <script src="script.js"></script>
+</body>
+</html>
